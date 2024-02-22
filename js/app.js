@@ -4,12 +4,11 @@ const nameContainer = document.querySelector(".main__profile-name");
 const unContainer = document.querySelector(".main__profile-username");
 const reposContainer = document.querySelector(".main__profile-repos");
 const urlContainer = document.querySelector(".main__profile-url");
-const config = require('./config');
-const { clientId, clientSecret } = config.github;
+
 
 const fectch = async (user) => {
   const api_call = await fetch(
-    `https://api.github.com/users/${user}?client_id=${clientId}&client_secret=${clientSecret}`
+    `https://api.github.com/users/${user}?client_id=8bf30c558cd846d58066&client_secret=16f3bc210831dfa129360f9987783051a08752c7`
   );
 
   const data = await api_call.json();
