@@ -1,9 +1,8 @@
-// config.js
 
 module.exports = {
     github: {
-      clientId: 'a8119397292c1cf7f916',
-      clientSecret: 'c390b58347d86c055be72261e232d2af8a8eaa17'
+      clientId: '8bf30c558cd846d58066',
+      clientSecret: '16f3bc210831dfa129360f9987783051a08752c7'
     }
   };
   
